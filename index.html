@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poster Companion | Protruded Jaw Setting and /v/</title>
+  <meta name="description" content="LabPhon 20 poster companion for a study on protruded jaw setting and labiodental /v/.">
+  <style>
+    :root {
+      --bg: #f7f4ef;
+      --text: #17212b;
+      --muted: #5f6c7b;
+      --accent: #0f6f6a;
+      --card: #ffffff;
+      --line: #ded7cc;
+      --soft: #eaf5f2;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0 52px;
+    }
+
+    header { margin-bottom: 26px; }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 750;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      font-size: 0.76rem;
+      margin-bottom: 9px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      max-width: 850px;
+      font-size: clamp(2rem, 5vw, 3.35rem);
+      line-height: 1.04;
+      letter-spacing: -0.045em;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 1.03rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 8px 13px;
+      border: 1px solid var(--accent);
+      border-radius: 999px;
+      color: var(--accent);
+      background: rgba(255, 255, 255, 0.45);
+      text-decoration: none;
+      font-weight: 650;
+      font-size: 0.95rem;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    section { margin-top: 18px; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px;
+    }
+
+    .summary {
+      background: var(--soft);
+      border-color: #9ccfc8;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      margin: 0 0 6px;
+      font-size: 0.98rem;
+      color: var(--text);
+    }
+
+    p { margin: 0 0 10px; }
+    p:last-child { margin-bottom: 0; }
+
+    a { color: var(--accent); }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    figure { margin: 0; }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 13px;
+      border: 1px solid var(--line);
+      background: #eee;
+    }
+
+    figcaption {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.42;
+    }
+
+    .notes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .note {
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+    }
+
+    .note:nth-child(-n+2) {
+      border-top: none;
+      padding-top: 0;
+    }
+
+    .note p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 28px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.76rem;
+      line-height: 1.35;
+    }
+
+    .footer-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+      align-items: flex-start;
+    }
+
+    .footer-grid p {
+      margin: 0;
+    }
+
+    .footer-grid p:first-child {
+      flex: 1.4 1 420px;
+    }
+
+    .footer-grid p:nth-child(2) {
+      flex: 1.2 1 360px;
+    }
+
+    .footer-grid p:nth-child(3) {
+      flex: 0.8 1 220px;
+    }
+
+    @media (max-width: 820px) {
+      main { padding-top: 30px; }
+      .media-grid, .notes { grid-template-columns: 1fr; }
+      .footer-grid { flex-direction: column; gap: 8px; }
+      .note:nth-child(2) { border-top: 1px solid var(--line); padding-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">LabPhon 20 poster companion</div>
+      <h1>The protruded jaw setting and labiodental /v/</h1>
+      <p class="subtitle">
+        Supplementary animations and notes for the poster
+        <em>The Influence of the Protruded Jaw Setting on the Labiodental Fricative /v/</em>.
+      </p>
+      <nav class="links" aria-label="Main links">
+        <a class="button primary" href="https://junheng-chan.github.io/about-me/">Junheng's profile</a>
+        <a class="button" href="https://doi.org/10.32657/10356/182790">Thesis page</a>
+        <a class="button" href="assets/labphon20_poster.pdf">Poster PDF</a>
+      </nav>
+    </header>
+
+    <section class="card summary">
+      <h2>Summary</h2>
+      <p>
+        This poster examines how a protruded jaw setting (PJAW) affects the articulation of /v/ in Singapore English.
+        In rt-MRI data, some PJAW productions shifted from labiodental articulation (lower lip–upper teeth) to
+        dentolabial articulation (upper lip–lower teeth), while others remained labiodental.
+      </p>
+      <p>
+        The animations below supplement the poster by showing example rt-MRI productions and PCA-based
+        reconstructions of lip-shape variation.
+      </p>
+    </section>
+
+    <section>
+      <div class="media-grid">
+        <figure class="card">
+          <h2>rt-MRI sample</h2>
+          <img src="assets/rtmri_sample_3plus1.gif" alt="rt-MRI sample showing one speaker producing repeated /ava/ trials">
+          <figcaption>
+            One speaker producing the 3 + 1 /ava/ trials: three isolated repetitions and one carrier-sentence production.
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <h2>PC1 warp</h2>
+          <img src="assets/pca_warp_pc1.gif" alt="Animated PC1 warp showing reconstructed lip-ROI shape variation from minus three to plus three standard deviations">
+          <figcaption>
+            Reconstructed lip-ROI shape from −3 SD to +3 SD along PC1.
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <h2>PC2 warp</h2>
+          <img src="assets/pca_warp_pc2.gif" alt="Animated PC2 warp showing reconstructed lip-ROI shape variation from minus three to plus three standard deviations">
+          <figcaption>
+            Reconstructed lip-ROI shape from −3 SD to +3 SD along PC2.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Notes for reading the materials</h2>
+      <div class="notes">
+        <div class="note">
+          <h3>rt-MRI sample</h3>
+          <p>
+            The sample GIF shows one speaker producing the repeated /ava/ trials. Teeth are not directly visible in MRI,
+            so their positions are inferred from signal voids and surrounding anatomy.
+          </p>
+        </div>
+
+        <div class="note">
+          <h3>PCA warps</h3>
+          <p>
+            The PC1 and PC2 GIFs are reconstructions from the lip ROI, not recordings of actual speakers. They show how
+            the lip-region image changes from −3 SD to +3 SD along each principal component.
+          </p>
+        </div>
+
+        <div class="note">
+          <h3>LD/DL interpretation</h3>
+          <p>
+            LD refers to lower lip–upper teeth constriction; DL refers to upper lip–lower teeth constriction. The PCA and
+            jaw-position analyses are used together because lip-shape patterning alone does not fully explain why some PJAW
+            tokens remain LD while others shift to DL.
+          </p>
+        </div>
+
+        <div class="note">
+          <h3>Plot guide</h3>
+          <p>
+            Any diagonal line in the PCA scatterplot should be treated as a visual guide only. The interpretation comes from
+            the PC1–PC2 distribution and the warp analysis.
+          </p>
+        </div>
+
+        <div class="note">
+          <h3>Scope</h3>
+          <p>
+            Acoustic analysis was not included because the MRI scanner environment is noisy. The focus here is articulatory:
+            how a long-term jaw setting can interact with active segmental articulation.
+          </p>
+        </div>
+
+        <div class="note">
+          <h3>Further details</h3>
+          <p>
+            The thesis page gives the fuller account of frame selection, ROI extraction, PCA, regression, jaw-position analysis,
+            and limitations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <p>
+            Thesis analysis, interpretation, poster design, and companion page: Chan Junheng. Data collection: Daniel Denian Lee.
+          </p>
+          <p>
+            Acknowledgements: Scott R. Moisik, Vimalan Vijayaragavan, and the Singapore MOE AcRF Tier 1 Grant 
+            “The secret life of consonants and vowels”.
+          </p>
+          <p>
+            <p>Site created with the help of GPT-5.5.</p>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
