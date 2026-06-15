@@ -168,43 +168,27 @@
       font-size: 0.95rem;
     }
 
-    footer {
-      margin-top: 28px;
-      padding-top: 12px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.76rem;
-      line-height: 1.35;
-    }
-
-    .footer-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px 18px;
-      align-items: flex-start;
-    }
-
-    .footer-grid p {
-      margin: 0;
-    }
-
-    .footer-grid p:first-child {
-      flex: 1.4 1 420px;
-    }
-
-    .footer-grid p:nth-child(2) {
-      flex: 1.2 1 360px;
-    }
-
-    .footer-grid p:nth-child(3) {
-      flex: 0.8 1 220px;
+    footer { 
+      margin-top: 28px; 
+      padding-top: 12px; 
+      border-top: 1px solid var(--line); 
+      color: var(--muted); 
+      font-size: 0.82rem; 
+      line-height: 1.45; 
+    } 
+    
+    footer p { 
+      margin: 0 0 8px; 
+    } 
+    
+    footer p:last-child { 
+      margin-bottom: 0; 
     }
 
     @media (max-width: 820px) {
       main { padding-top: 30px; }
       .media-grid, .notes { grid-template-columns: 1fr; }
       .gif-media { height: 220px; }
-      .footer-grid { flex-direction: column; gap: 8px; }
       .note:nth-child(2) { border-top: 1px solid var(--line); padding-top: 12px; }
     }
   </style>
@@ -320,20 +304,17 @@
         </div>
       </div>
     </section>
-
     <footer>
-      <div class="footer-grid">
-        <p>
-          Thesis analysis, interpretation, poster design, and companion page: Chan Junheng. Data collection: Daniel Denian Lee.
-        </p>
-        <p>
-          Acknowledgements: Scott R. Moisik, Vimalan Vijayaragavan, and the Singapore MOE AcRF Tier 1 Grant
-          “The secret life of consonants and vowels”.
-        </p>
-        <p>
-          Site created with the help of GPT-5.5.
-        </p>
-      </div>
+      <p>
+        Thesis analysis, interpretation, poster design, and companion page: Chan Junheng. Data collection: Daniel Denian Lee.
+      </p>
+      <p>
+        Acknowledgements: Scott R. Moisik, Vimalan Vijayaragavan, and the Singapore MOE AcRF Tier 1 Grant
+        “The secret life of consonants and vowels”.
+      </p>
+      <p>
+        Site created with the help of GPT-5.5.
+      </p>
     </footer>
   </main>
 </body>
